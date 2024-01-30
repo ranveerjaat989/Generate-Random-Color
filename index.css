@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    
+}
+div{
+    border: 1px solid black;
+    height: 110px;
+    width:550px;
+    margin: auto;
+    margin-top: 1.4rem;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:570px){
+    div{
+        width: auto;
+    }
+}
